@@ -1,0 +1,44 @@
+.password{
+    min-width: 200px;
+    max-width: 250px;
+    background-color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    color: rgb(37, 37, 37);
+    padding: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.td{
+    position: relative;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+.copy{
+    background-color: transparent;
+    border: none;
+    transition: all .8s;
+}
+.copy:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+.delete{
+    background-color: transparent;
+    border: none;
+    transition: all 1s;
+}
+.delete:hover{
+    transform: rotate(-360deg);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+    .password{
+        max-width: 150px;
+        min-width: 100px;
+    }
+}

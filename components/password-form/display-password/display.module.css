@@ -1,0 +1,95 @@
+.sectionDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px rgba(255, 255, 255, 0.274);
+}
+@media  screen and (max-width: 550px) {
+    .display{
+        width: 90%;
+    }
+}
+
+.inputDisplay{
+    padding-left: 5px;
+    width: 80%;
+    height: 90%;
+    border: none;
+    border-radius: 17px 0px 0px 17px;
+    font-size: 26px;
+    color: #413c3c
+}
+.inputDisplay:focus{
+    outline: none;
+}
+
+.buttons{
+    width: 40px;
+    height: 40px;
+    margin: 0px 1% 0px 1%;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    transition: all .8s;
+}
+.buttons:hover{
+    transform: translateY(-3px) rotate(-360deg);
+    cursor: pointer;
+}
+
+.containerSave{
+    position: relative;
+}
+
+.saveButton{
+    height: 40px;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    transition: all .8s;
+}
+.saveButton:hover{
+    transform: rotate(-360deg);
+    cursor: pointer;
+}
+
+.safetyContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.safetyInfo{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    align-self: center;
+}
+
+.displayButtons{
+    position: relative;
+}
+
+@media  screen and (max-width: 550px) {
+    .safetyInfo{
+        width: 90%;
+    }
+    .buttons{
+        width: 30px;
+        height: 30px;
+    }
+}

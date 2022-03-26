@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 150px;
+}
+.description{
+    font-size: 17px;
+    width: 500px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 550px) {
+    .description{
+        width: 90%;
+        text-align: center;
+    }
+}

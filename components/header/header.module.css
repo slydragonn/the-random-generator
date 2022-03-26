@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logoSection{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+}
+
+.logo{
+    transition: all 1.5s;
+}
+.logo:hover{
+    transform: rotate(360deg);
+}
+
+.logoTitle{
+    margin: 10px;
+    font-size: 24px;
+    width: 200px;
+}

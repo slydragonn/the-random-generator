@@ -1,0 +1,127 @@
+.allForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+
+.container{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+.containerKL{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 550px) {
+    .container{
+        width: 90%;
+        flex-direction: column;
+        height: 140px;
+        align-items: center;
+    }
+    .containerKL{
+        align-items: center;
+    }
+}
+
+.characters{
+    display: flex;
+}
+.charDiv{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+.charItems{
+    margin-bottom: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.charItems:hover{
+    color: #E94560;
+}
+
+.keyword{
+    width: 150px;
+    height: 20px;
+    border: none;
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.keyword:focus{
+    outline: 2px solid #E94560;
+}
+.keywordLabel{
+    transition: all .2s;
+}
+.keywordLabel:hover{
+    color: #E94560;
+    cursor: pointer;
+}
+
+.positionSection:hover{
+    cursor: pointer;
+}
+.positionItem{
+    transition: all 0.2s;
+}
+.positionItem:hover{
+    cursor: pointer;
+    color: #E94560;
+}
+
+.length{
+    width: 50px;
+    height: 20px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    text-align: center;
+}
+.length:focus{
+    outline: 2px solid #E94560;
+}
+.lengthLabel{
+    transition: all .2s;
+}
+.lengthLabel:hover{
+    cursor: pointer;
+    color: #E94560;
+}
+
+.generate{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #E94560;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: all 0.3s;
+    box-shadow: 0px 3px 3px rgba(110, 110, 110, 0.3);
+}
+.generate:hover{
+    background-color: #e72242;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
